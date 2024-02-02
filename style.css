@@ -1,0 +1,901 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    width: 100%;
+    overflow: hidden;
+
+
+}
+#nav h3:hover{
+    border-bottom: 2px solid black;
+}
+#nav{
+    /* border-bottom: 1px solid rgb(63, 63, 63); */
+    padding: 10px 29px;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(252, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+#left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#left h3{
+    font-weight: 400;
+    font-size: 18px;
+}
+#right h3{
+    font-weight: 400;
+    font-size: 18px;
+}
+#middle img{
+   width: 86px;
+}
+#right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}   
+#bag{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+#bag h3{
+    font-size: 16px;
+}
+.page1{
+    width: 97%;
+    height: calc(100vh - 57px);
+    background-image: url(https://alephbeauty.com/cdn/shop/files/introducing-the-one-moisture-cream-banner_2560x.jpg?v=1693335904);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+   
+}
+.page1 h1{
+    color: white;
+    font-family: var(--font-primary);
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 30%;
+}
+.page1 p{
+    color: white;
+    font-size: 19px;
+    margin-top: 33px;
+    font-weight: 600;
+}
+button{
+    padding: 15px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    /* color: white; */
+    margin-top: 15px;
+}
+.page2{
+    width: 98%;
+    margin-left: 13px;
+    height: 99vh;
+    /* background-color: aqua; */
+    display: flex;
+    margin-bottom: 100px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+#left2{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://alephbeauty.com/cdn/shop/files/aleph-concealer-foundation-2-078.jpg?v=1660688939&width=2000);
+    background-position: center;
+    background-size: cover;
+   
+}
+#right2{
+    width: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100%;
+    text-align: center;
+    /* line-height: 50px; */
+}
+#right2 h2{
+    font-size: 70px;
+    font-weight: 300;
+    margin-top: 100px;
+}
+#right2 h1{
+    font-size: 56px;
+    font-weight: 300;
+    margin-left: 190px;
+    margin-top: 40px;
+}
+#right2 h5{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+#right2 p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+#center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 30px;
+ 
+}
+
+#center h4{
+    font-weight: 500;
+}
+#right2 button{
+    margin-top: 50px;
+    margin-right: 200px;
+    opacity: .9;
+}
+.page3{
+    width: 100%;
+    height: 120vh;
+    position: relative;
+    /* background-color: aquamarine; */
+}
+#img1{
+    width: 200px;
+    height: 230px;
+    position: relative;
+    top: -7%;
+    left: 31%;
+    object-fit: cover;
+}
+ #img2{
+    position: relative;
+    top: 30%;
+    left: -30%;
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+#img3{
+    position: relative;
+    top: 30%;
+    left: 65%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+#img4{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    position: absolute;
+    top: 75%;
+    left: 20%;
+}
+#img5{
+    position: absolute;
+    top: 75%;
+    left: 60%;
+    width: 90px;
+    height: 140px;
+    object-fit: cover;
+} 
+.page3 h1{
+    position: absolute;
+    font-size: 50px;
+    top: 40%;
+    left: 26%;
+    font-weight: 300;
+}
+.page3 p{
+    position: absolute;
+    font-size: 18px;
+    top: 49%;
+    left: 30%;
+    font-weight: 500;
+}
+.page3>button{
+    position: absolute;
+    /* background-color: rgb(219, 219, 218); */
+    opacity: .8;
+    top: 63%;
+    left: 40%;
+}
+.page4{
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(222, 235, 231);
+    text-align: center;
+    
+
+
+}
+.page4 p{
+    font-size: 35px;
+    padding: 100px 400px;
+}
+.page4 #imgcontainer {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    /* justify-content: space-around */
+}
+.page4 #imgcontainer img{
+    width: 100px;
+    height: 21px;
+    transition: all ease  0.4s;
+    opacity: .3;
+}
+.page4 #imgcontainer img:hover{
+    opacity: 1.2;
+}
+#page5{
+    height: 150vh;
+    width: 100%;
+    /* background-color: rgb(237, 240, 239); */
+    position: relative;
+}
+#page5 h1{
+    margin-left: 20px;
+    font-size: 60px;
+    font-weight: 300;
+}
+#page5>button{
+    position: absolute;
+    top: 0;
+    right: 3%;
+    background-color: rgb(119, 116, 113);
+}
+#inner{
+    width: 98%;
+    height: 90vh;
+    /* background-color: rgb(168, 168, 232); */
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    gap: 5px;
+    display: flex;
+}
+#inner1{
+    height: 100%;
+    width: 33%;
+    background-color: rgb(255, 255, 255);
+    background-image: url(https://alephbeauty.com/cdn/shop/files/aleph-cheek-lip-tint-6g-Jar_C-L-Sangha_1600x1862px_800x.png?v=1663821179);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: all ease 0.5s;
+    
+}
+#inner2{
+    height: 100%;
+    width: 33%;
+    background-image: url(https://alephbeauty.com/cdn/shop/files/aleph-cf-30-mm_800x.png?v=1663546367);
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: all ease 0.5s;
+}
+#inner3{
+    height: 100%;
+    width: 33%; 
+    background-image: url(https://alephbeauty.com/cdn/shop/files/aleph-cl-asc-mm_800x.png?v=1663546460);
+    background-color: rgb(236, 244, 237);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: all ease 0.5s;
+}
+ #inner #inner1 #bottom{
+    width: 100%;
+    height:40px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: -0.1%;
+    left: 0;
+    text-align: center;
+    z-index: -9;
+    transition: all ease 0.5s;
+
+}
+
+#inner #inner1 #bottom h1{
+    font-size: 20px;
+    color: white;
+}
+#inner #inner1:hover #bottom{
+    margin-bottom: 0.1%;
+    z-index: 0;
+    
+}
+#inner1:hover{
+    background-image: url(https://alephbeauty.com/cdn/shop/files/aleph-cheek-lip-tint-emanate-model_0831.jpg?v=1691119781&width=1600);
+    background-size: cover;
+    background-position: center;
+    
+}
+#inner #inner2 #bottom2{
+    width: 100%;
+    height:40px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: -0.1%;
+    left: 0;
+    text-align: center;
+    z-index: -9;
+    transition: all ease 0.5s;
+
+}
+
+#inner #inner2 #bottom2 h1{
+    font-size: 20px;
+    color: white;
+}
+#inner #inner2:hover #bottom2{
+    margin-bottom: 0.1%;
+    z-index: 0;
+    
+}
+#inner2:hover{
+    /* background-image: url(https://alephbeauty.com/cdn/shop/files/aleph-cheek-lip-tint-emanate-model_0831.jpg?v=1691119781&width=1600); */
+    background-image: url(https://alephbeauty.com/cdn/shop/files/Cheek_LipTintGrounded_1.jpg?v=1662675508&width=1600);
+    background-size: cover;
+    background-position: center;
+    
+}
+#inner #inner3 #bottom3{
+    width: 100%;
+    height:40px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: -0.1%;
+    left: 0;
+    text-align: center;
+    z-index: -9;
+    transition: all ease 0.5s;
+
+}
+
+#inner #inner3 #bottom3 h1{
+    font-size: 20px;
+    color: white;
+}
+#inner #inner3:hover #bottom3{
+    margin-bottom: 0.1;
+    z-index: 0;
+    
+}
+#inner3:hover{
+    /* background-image: url(https://alephbeauty.com/cdn/shop/files/aleph-cheek-lip-tint-emanate-model_0831.jpg?v=1691119781&width=1600); */
+    /* background-image: url(https://alephbeauty.com/cdn/shop/files/Cheek_LipTintGrounded_1.jpg?v=1662675508&width=1600); */
+    background-image: url(https://alephbeauty.com/cdn/shop/files/Cheek-Lip_Tint.jpg?v=1662617818&width=1600);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+
+#inner1 h2{
+      margin-top: 115%;
+      font-weight: 400;
+      font-size: 23px;
+}
+#inner1 h3{
+    font-style: oblique;
+    font-variant: small-caps;
+    font-weight: 300;
+    margin-top: 15px;
+}
+#inner1>h4{
+    margin-left: 80%;
+    font-weight: 400;
+    font-stretch: expanded;
+    margin-bottom: 380px;
+}
+#inner2 h2{
+    margin-top: 115%;
+    font-weight: 400;
+    font-size: 23px;
+}
+#inner2 h3{
+  font-style: oblique;
+  font-variant: small-caps;
+  font-weight: 300;
+  margin-top: 15px;
+}
+#inner2>h4{
+  margin-left: 80%;
+  font-weight: 400;
+  font-stretch: expanded;
+  margin-bottom: 380px;
+}
+#inner3 h2{
+    margin-top: 115%;
+    font-weight: 400;
+    font-size: 23px;
+}
+#inner3 h3{
+  font-style: oblique;
+  font-variant: small-caps;
+  font-weight: 300;
+  margin-top: 15px;
+}
+#inner3>h4{
+  margin-left: 80%;
+  font-weight: 400;
+  font-stretch: expanded;
+  margin-bottom: 380px;
+}
+.page6{
+    height: 100vh;
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top: -200px;
+    text-align: center;
+}
+.page6 h1{
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+.center{
+    height: 80vh;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    gap: 4px;
+    overflow-x: auto;
+    /* animation: move 12s linear infinite ; */
+}
+.center .box{
+    position: relative;
+    flex-shrink: 0;
+    height: 100%;
+    width: 40%;
+    background-color: rgb(247, 242, 240);
+    display: flex;
+    animation: move 8s linear infinite ;
+    transition: all ease 1s;
+    animation-delay: 2s;
+    
+
+}
+.center .box .rgt6{
+    width: 50%;
+   
+    height: 100%;
+}
+ .center .box .lft6{
+    
+    /* background-color: rgba(98, 139, 228, 0.623); */
+    background: linear-gradient(rgb(77, 77, 78),rgb(100, 140, 149));
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    line-height: 24px;
+}
+.center .lft6 p{
+    margin-top: 20%;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+}
+.center .lft6 h4{
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+    margin-top: 24px;
+
+   
+}
+.center .lft6 i{
+   
+    color: white;
+    margin-right: 10px;
+}
+
+.center .box>img{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 24%;
+    top: 30%;
+    
+}
+
+.center .box .rgt6>img{
+    height: 100%;
+     width: 100%;
+     /* object-fit: cover; */
+    object-position: top;
+    
+}
+@keyframes move {
+    from{
+        right: 0;
+        transform: translateX(0%);
+    }
+    from{
+        right: 100%;
+        transform: translateX(100%);
+    }
+}
+.center::-webkit-scrollbar{
+    display: none;
+}
+
+.page7{
+    height: 90vh;
+    width: 100%;
+    /* background-color: rgb(68, 58, 78); */
+    display: flex;
+}
+.page7 .left7{
+    height: 100%;
+    width: 30%;
+    /* background-color: rgb(255, 255, 255); */
+    padding: 70px;
+}
+.page7 .left7 h1{
+    font-size: 50px;
+    font-weight: 500;
+
+}
+.page7 .right7{
+    height: 100%;
+    width: 80%;
+    /* background-color: rgb(231, 226, 237); */
+    display: flex;
+}
+#first{
+    height: 80%;
+    padding: 5px; 
+    width: 33%;
+    /* background-color: blanchedalmond; */
+}
+#second{
+    height: 100%;
+    width: 33%;
+    padding: 5px;
+    
+    /* background-color: rgb(255, 255, 255); */
+}
+#thrid{
+    height: 80%;
+    width: 33%;
+    padding: 5px;
+    /* background-color: rgb(119, 185, 91); */
+}
+#first img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+#second img{
+    width: 100%;
+    height: 56%;
+    object-fit: cover;
+}
+#thrid img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+.right7 p{
+    font-weight: 500;
+    line-height: 20px;
+}
+.page7 h4{
+    margin-bottom: 6px;
+    margin-top: 8px;
+    font-weight: 400;
+}
+#second>button{
+    background-color: rgb(202, 205, 205);
+    margin-left: 80px;
+    
+}
+#page8{
+    margin-top: 200px;
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://alephbeauty.com/cdn/shop/files/ex-sus.jpg?v=1661851834);
+    background-size: cover;
+    background-position: center;
+    text-align: start;
+}
+  
+#page8 h3{
+    padding: 20px;
+    opacity: .4;
+}
+#page8 p{
+    padding: 10px 820px;
+    font-size: 27px;
+    font-weight: 300;
+    margin-left: -800px;
+   
+}
+#page8>button{
+    margin-left: 30px;
+}
+#page9{
+    height: 100vh;
+    width: 100%;
+    /* background-color: azure; */
+    position: relative;
+}
+ #page9>img{
+    width: 400px;
+    height: 550px;
+    object-fit: cover;
+     position: absolute;
+     left: 40%;
+    
+     top: 20%;
+ }
+#page9>h1{
+    position: relative;
+    top: 87px;
+    margin-left: 40%;
+    font-size: 55px;
+    font-weight: 400;
+} 
+#page9 #img9{
+    position: absolute;
+    left: 60%;
+    height: 230px;
+    top: 30%;
+    width: 230px;
+}
+#page9 #img10{
+    position: absolute;
+    left: 31%;
+    height: 230px;
+    top: 50%;
+    width: 230px;
+}
+#page9 h4{
+        font-weight: 400;
+        position: absolute;
+        left: 71%;
+        top: 61%;
+      
+}
+#page9 h3{
+  font-weight: 500;
+  position: absolute;
+  left: 71%;
+  line-height: 10px;
+  top: 57%;
+}
+#page9>button{
+    position: absolute;
+    left: 70%;
+    top: 65%;
+}
+#page9 h2{
+    font-size: 17px;
+    position: absolute;
+    top: 80%;
+    left: 28%;
+    font-weight: 600;
+}
+#page9 h5{
+    font-size: 17px;
+    position: absolute;
+    top: 84%;
+    left: 28%;
+    font-weight: 400;
+}
+#page9 h6{
+    font-size: 35px;
+    position: absolute;
+    top: 95%;
+    left: 47%;
+    font-weight: 400;
+}
+#page10  {
+    margin-top: 70px;
+    width: 100%;
+    height: 60vh;
+    /* background-color: rgb(229, 165, 165); */
+}
+#page10 h1{
+    margin-left: 37%;
+    font-size: 40px;
+}
+#page10div{
+    margin-top: 30px;
+    height: 70%;
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: auto;
+    /* background-color: rgb(174, 101, 4); */
+   
+
+}
+#page10div::-webkit-scrollbar{
+    display: none;
+}
+
+#page10div img{
+    width: 250px;
+    height: 316px;
+    margin-left: -10px;
+}
+.page11{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(169, 139, 198); */
+    display: flex;
+    padding: 3px 16px;
+}
+.page11 .left11{
+    height: 93%;
+    width: 50%;
+    position: relative;
+    background-color: rgb(225, 222, 218);
+}
+.page11 .right11{
+    position: relative;
+    height: 93%;
+    width: 50%;
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    justify-content: space-around;
+    background-color: rgb(217, 217, 217);
+}
+.page11 .right11 #l1{
+    padding: 80px 8px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 80%;
+    
+}
+.page11 .left11 h3{
+    margin-left: 80px;
+    margin-top: 100px;
+    opacity: .6;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+}
+.page11 .left11 h1{
+    font-size: 15px;
+    font-weight: 300;
+    position: absolute;
+    top: 40%;
+    left: 12%;
+    border-bottom:  1px solid rgb(0, 0, 0);
+    
+}
+.page11 .left11 h5{
+    font-size: 18px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    font-weight: 300;
+    position: relative;
+   
+}
+
+/* .page11 .left11::before{
+    content: "";
+    width: 200px;
+    height: 10px;
+    background-color: black;
+    top: 50%;
+    left: 40%;
+} */
+
+.page11 .left11 h2{
+    padding: 12px 70px;
+    font-size: 35px;
+    font-weight: 300;
+}
+.page11 .left11 img{
+    height: 120px;
+    width: 80%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+.page11 .right11 #l2{
+    padding: 80px 8px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 80%;
+  
+  
+}
+.page11 .right11 h2{
+    font-weight: 400;
+    font-size: 16px;
+    opacity: .7;
+    text-transform: uppercase;
+}
+.page11 .right11 h2:hover {
+    border-bottom: 2px solid black;
+    width: fit-content;
+    
+}
+.page11 .right11 #l3{
+   
+    padding: 80px 8px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 80%;
+    /* background-color: rgb(208, 208, 21); */
+}
+#page12{
+    height: 70px;
+    width: 100%;
+    /* background-color: aquamarine; */
+    margin-top: -55px;
+    display: flex;
+}
+#left12{
+    width: 30%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+}
+#right12{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    height: 70px;
+}
+#right12 h3{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 13px;
+}
+#left12 h4{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 13px;
+}
